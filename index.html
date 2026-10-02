@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Arts Council Malta, Malta Book Festival stand 2026 | Mel Grek</title>
@@ -20,15 +21,7 @@
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#1A1224; --panel:#251c31; --ink:#ECEAE1; --ink-soft:#c3bdc9; --line:rgba(236,234,225,.2); --onink:#1A1224; --stage:#241b30;
-}}
-:root[data-theme="dark"]{
-  --bg:#1A1224; --panel:#251c31; --ink:#ECEAE1; --ink-soft:#c3bdc9; --line:rgba(236,234,225,.2); --onink:#1A1224; --stage:#241b30;
-}
 .only-dark{display:none}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .only-dark{display:block}:root:not([data-theme="light"]) .only-light{display:none}}
-:root[data-theme="dark"] .only-dark{display:block}:root[data-theme="dark"] .only-light{display:none}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;position:relative}
@@ -150,8 +143,6 @@ dialog#lb::backdrop{background:rgba(26,18,36,.7)}
 .q .notes{border-top-color:rgba(26,18,36,.14)}
 .q .note{background:var(--bg)}
 .q .compose textarea{background:var(--bg)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .q{background:rgba(253,161,126,.12)}}
-:root[data-theme="dark"] .q{background:rgba(253,161,126,.12)}
 
 
 .menu{position:sticky;top:0;z-index:20;background:var(--bg);padding:calc(10px + env(safe-area-inset-top,0px)) 0 10px;margin-bottom:-1px;border-bottom:1px solid var(--line)}
@@ -254,7 +245,7 @@ section[id],div[id="mockup"]{scroll-margin-top:72px}
       <h3><span>2.</span>Is there anything you’d want changed or amended?<small class="hint">If it’s about a specific artwork, mention the panel number so it’s easy to find.</small></h3>
     </div>
     <div class="send">
-      <p>Send your answers by email or add them to our shared Notion page.</p>
+      <p>Send your answers by <a href="mailto:hello@melgrek.com?subject=ACM%20stand%20sketches%3A%20feedback&body=Hi%20Mel%2C%0A%0A1.%20First%20impressions%20of%20the%20sketches%3A%0A%0A%0A2.%20Anything%20to%20change%20or%20amend%20%28please%20mention%20panel%20numbers%29%3A%0A%0A%0AThanks">email</a> or add them to our <a href="https://app.notion.com/p/melgrek/Give-Feedback-Here-first-draft-88901c8842e582218312011fc3ccf204?source=copy_link" target="_blank" rel="noopener">shared Notion page</a>.</p>
       <a class="btn" href="mailto:hello@melgrek.com?subject=ACM%20stand%20sketches%3A%20feedback&body=Hi%20Mel%2C%0A%0A1.%20First%20impressions%20of%20the%20sketches%3A%0A%0A%0A2.%20Anything%20to%20change%20or%20amend%20%28please%20mention%20panel%20numbers%29%3A%0A%0A%0AThanks">Email your feedback</a>
     </div>
   </section>
